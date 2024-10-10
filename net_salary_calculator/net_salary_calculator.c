@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 
 // Function to calculate tax based on salary range
 void calculate_tax(float *gross_salary, float *tax) {
