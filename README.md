@@ -59,14 +59,6 @@ The program asks the user to enter 20 full names and whether they would like to 
   - The bubble sort algorithm iterates through the list of names multiple times.
   - For each pass, it compares adjacent names and swaps them if they are not in the desired order (either ascending or descending).
   
-### **How the Solution Works**:
-1. The user enters 20 full names.
-2. The program asks whether the user wants to sort the names in ascending or descending order.
-3. The program sorts the names using the **bubble sort algorithm** based on the user's input.
-4. The sorted list is displayed to the user.
-
----
-
 ## **Group Contributions**
 
 The project was collaboratively developed by three group members. Below is a breakdown of the contributions from each member:
@@ -92,7 +84,7 @@ Each member contributed to the final report and submission process.
 ### **Net Salary Calculator**
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone <https://github.com/Joshua-Coded/ALU_WK5_Assignment.git>
    ```
 2. Navigate to the project directory and compile the program:
    ```bash
@@ -113,21 +105,4 @@ Each member contributed to the final report and submission process.
    ```bash
    ./sorting_names
    ```
-3. The program will ask for 20 names and whether you want them sorted in **ascending** or **descending** order.
-4. The sorted list of names will be displayed according to the selected order.
-
 ---
-
-## **Assessment Goals**
-
-This project meets the following academic objectives:
-1. **Understanding the Stack and Heap**: Through the use of pointers, students will understand how memory is allocated and managed using the stack and heap.
-2. **Mastery of Pointers**: The use of pointers in functions allows students to manipulate variables, arrays, and strings more effectively.
-3. **Nested Loops**: The bubble sort algorithm involves the use of nested loops to iterate over arrays of strings.
-4. **Modular Programming**: Each part of the program is divided into separate, reusable functions, allowing for a clean, modular design.
-
----
-
-## **Conclusion**
-
-This project demonstrates how to build efficient and modular C programs using pointers, functions, and sorting algorithms. The **Net Salary Calculator** provides a practical use of function pointers to compute complex calculations, while the **Sorting Names** program leverages nested loops to sort strings using the bubble sort algorithm. Each team member contributed to the final solution, as detailed in the group contributions section.
