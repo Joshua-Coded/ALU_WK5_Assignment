@@ -7,7 +7,7 @@
 
 
 void bubbleSort(char names[][MAX_NAME_LENGTH], int n, int ascemding);
-void swap(char *xp, char *yp);
+void stringSwap(char *xp, char *yp);
 
 /**
  * Main function
@@ -69,7 +69,7 @@ int main()
  * @param xp: first string
  * @param yp: second string
  */
-void swap(char *xp, char *yp)
+void stringSwap(char *xp, char *yp)
 {
     // swap the strings
     char temp[MAX_NAME_LENGTH];
@@ -100,7 +100,7 @@ void bubbleSort(char names[][MAX_NAME_LENGTH], int n, int ascemding)
             // compare the names
             if ((ascemding && strcmp(names[j], names[j + 1]) > 0) || (!ascemding && strcmp(names[j], names[j + 1]) < 0))
             {
-                swap(names[j], names[j + 1]);
+                stringSwap(names[j], names[j + 1]);
                 swapped = 1;
             }
         }
