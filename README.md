@@ -1,5 +1,10 @@
 # **Group Project: Net Salary Calculator and Sorting Names**
 
+List of Contributors
+Joshua
+King
+Favour
+
 ## **Introduction**
 
 This project implements two programs using C programming, designed to solve the following problems:
