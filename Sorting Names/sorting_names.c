@@ -85,7 +85,7 @@ void bubbleSort(char names[][MAX_NAME_LENGTH], int n, int ascemding)
             if ((ascemding && strcmp(names[j], names[j + 1]) > 0) || (!ascemding && strcmp(names[j], names[j + 1]) < 0))
             {
                 swap(names[j], names[j + 1]);
-                // swapped = 1;
+                swapped = 1;
             }
         }
         if  (!swapped)
